@@ -9,6 +9,7 @@ body{
 
 .header, .footer{
         justify-content: space-around;
+        align-items: baseline;
         padding: 20px;  
         display: flex;
         background-color: #1F2937;
@@ -24,8 +25,9 @@ body{
         text-align: center;
 }
 .right{
+        display: flex;
         justify-content: flex-end;
-        gap: 10px;
+        gap: 20px;
 }
 
 .Section-one{
@@ -72,6 +74,9 @@ body{
         height: 150px;
         border: 2px solid #3882f6;
         border-radius: 8px;
+        align-content: center;
+        justify-items: center;
+        background-color: #3881f660;
 }
 
 .boxes{
