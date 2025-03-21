@@ -1,13 +1,31 @@
 *{
         font-family: Arial, Helvetica, sans-serif
 }
+body{
+        display: flex;
+        flex-direction: column;   
+        margin: 0px;     
+}
 
-.header{
-        justify-content: space-between;
-        padding: 10px;  
+.header, .footer{
+        justify-content: space-around;
+        padding: 20px;  
         display: flex;
         background-color: #1F2937;
         color: #e5e7eb;   
+}
+
+.left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+}
+.right{
+        justify-content: flex-end;
+        gap: 10px;
 }
 
 .Section-one{
@@ -18,6 +36,7 @@
         flex: 1;
         padding: 40px;
         gap: 40px;
+        flex-wrap: wrap;
 }
 
 .mainL{
@@ -44,11 +63,13 @@
         display: flex;
         gap: 40px;
         font-size: 18px;
+        margin: 40px;
+        flex-wrap: wrap;
 }
 
 .box{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border: 2px solid #3882f6;
         border-radius: 8px;
 }
@@ -56,11 +77,42 @@
 .boxes{
         display: flex;
         flex-direction: column;
-        width: 100px;
+        width: 150px;
         text-align: center;
         align-content: center;
         justify-items: center;
         gap: 10px;
+}
+
+.quote-section{
+        display: flex;
+        background-color: #e5e7eb;
+        padding:  50px;
+        align-items: center;
+        flex-direction: column;
+        color: #1f2937;
+        gap: 10px;
+}
+
+.quote{
+        font-size: 36px;
+        font-style:italic;
+        font-weight:100;
+        width: 600px;
+}
+
+.quotee{
+        font-size: 18px;
+        font-weight:900;
+        width: 600px;
+        text-align: end;
+}
+
+.call2act{
+        color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
 }
 
 .button{
@@ -70,6 +122,11 @@
         width: 100px;  
         border-radius: 8px; 
         font-weight: 600;
+        border-color: #e5e7eb;
+        border-style:solid;
+}
+.button.top{
+        border-style:none;
 }
 
 a, .hero-subtext{
@@ -90,23 +147,20 @@ a, .hero-subtext{
 
 }
 
-.left{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        justify-content: flex-start;
-        align-items: center;
-}
-.right{
-        justify-content: flex-end;
-        padding:5px;
-}
-
-.margin{
-        flex-shrink: 5;
-}
-
-
 img{
         border: #3882f6 5px;
+}
+
+.c2a-main{
+        font-weight: 900;
+}
+
+.box1{
+        justify-content: center;
+        display: flex;
+        width: 600px;
+        gap: 10px;
+        padding: 40px;
+        background-color: #3882f6;
+        border-radius: 8px;
 }
