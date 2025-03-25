@@ -93,13 +93,14 @@ body{
 
 .quote-section{
         display: flex;
-        background-color: #e5e7eb;
-        padding:  50px;
+        background-color: #e5e7eb;<body>
+        <div><H1>Holly is sexy</H1></div>
+        <p>she has lovely boobies</p>
+
         align-items: center;
         flex-direction: column;
         flex-shrink: 1;
         color: #1f2937;
-        gap: 10px;
 }
 
 .quote{
@@ -108,6 +109,7 @@ body{
         font-weight:100;
         flex-basis: 60px;
         flex-shrink:1;
+        padding: 20px;
 }
 
 .quotee{
@@ -116,6 +118,7 @@ body{
         text-align: flex-end;
         align-self: flex-end;;
         flex-shrink:1;
+        padding-bottom: 20px;
         padding-right: 10%;
 }
 
@@ -135,6 +138,7 @@ body{
         font-weight: 600;
         border-color: #e5e7eb;
         border-style:solid;
+        cursor: pointer;
 }
 .button.top{
         border-style:none;
